@@ -14,6 +14,6 @@ This is an App Build with Jetpack Compose to utile a free api to show kanye quot
 ![Screenshot 3](/screenshots/ss3.png)
 
 ## Author
-[Hezekiah ELisha](http://hithub.com/Hezekiah-Elisha)
+[Hezekiah Elisha](http://hithub.com/Hezekiah-Elisha)
 
 _THANK YOU_
