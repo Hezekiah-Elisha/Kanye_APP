@@ -12,6 +12,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Button
 import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.FloatingActionButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -131,9 +132,14 @@ fun KanyeQuoteScreen(
         FloatingActionButton(
             onClick = retryAction,
             modifier = Modifier.align(Alignment.BottomEnd)
-                .padding(32.dp)
+                .padding(32.dp),
+            elevation = FloatingActionButtonDefaults.elevation(8.dp),
         ) {
-            Text(text = "New Quote")
+            Text(
+                text = "New Quote",
+                style = MaterialTheme.typography.labelMedium,
+                modifier = Modifier.padding(start=8.dp, end=8.dp, top=2.dp, bottom=2.dp)
+            )
         }
     }
 }
